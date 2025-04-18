@@ -107,5 +107,3 @@ LEFT JOIN revenue_per_period r
   AND d.reporting_date = r.reporting_date
 WHERE d.reporting_date <= CURRENT_DATE
 
-select * from `reporting_db.rep_revenue_per_period` 
-where reporting_date = '2024-01-01'
